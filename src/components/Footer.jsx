@@ -2,7 +2,15 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div>
+        <footer>
+            <ul>
+                <li><a href="linkedin">LinkedIn</a></li>
+                <li><a href="github">GitHub</a></li>
+                <li><a href="email">Email</a></li>
+            </ul>
+        </footer>
+    </div>
   )
 }
 
