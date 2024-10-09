@@ -1,11 +1,6 @@
 import React from 'react'
-// const styles = {
-//     backgroundColor: '#004f8c',
-//     color: 'white',
-//     padding: '20px',
-//     textAlign: 'center',
-//     fontFamily: 'Arial'
-// }
+import '../styles/Project.css'
+
 
 const Project = () => {
   return (

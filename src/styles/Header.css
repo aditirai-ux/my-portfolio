@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: aliceblue;
+    border-bottom: 1px solid #e9ecef;
+}
+.header h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+.header h2 {
+    font-size: 24px;
+    font-weight: 400;
+}
