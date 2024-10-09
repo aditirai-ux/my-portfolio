@@ -1,30 +1,30 @@
 import React from 'react'
-const styles = {
-    backgroundColor: '#004f8c',
-    color: 'white',
-    padding: '20px',
-    textAlign: 'center',
-    fontFamily: 'Arial'
-}
+// const styles = {
+//     backgroundColor: '#004f8c',
+//     color: 'white',
+//     padding: '20px',
+//     textAlign: 'center',
+//     fontFamily: 'Arial'
+// }
 
 const Project = () => {
   return (
-    <div style={styles.backgroundColor}>
-        <h3>Projects</h3>
-        <ul>
-            <li>
+    <div>
+        <div className="projects">
+            <h3>Projects</h3>
                 <h4>Project 1</h4>
-                <p>Description of Project 1</p>
-            </li>
-            <li>
+                <p>Project Description</p>
+                <a href="link">Link to Project</a>
+                <br />
                 <h4>Project 2</h4>
-                <p>Description of Project 2</p>
-            </li>
-            <li>
+                <p>Project Description</p>
+                <a href="link">Link to Project</a>
+                <br />
                 <h4>Project 3</h4>
-                <p>Description of Project 3</p>
-            </li>
-        </ul>
+                <p>Project Description</p>
+                <a href="link">Link to Project</a>
+        </div>
+        
         <form className="form">
             <label name="contact">Contact:</label>
             <input type="text" id="name" name="name" required></input>

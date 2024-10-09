@@ -3,11 +3,11 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-        <footer>
+        <footer className='footer'>
             <ul>
-                <li><a href="linkedin">LinkedIn</a></li>
-                <li><a href="github">GitHub</a></li>
-                <li><a href="email">Email</a></li>
+                <li id='linkedin'><a href="linkedin">LinkedIn</a></li>
+                <li id='github'><a href="github">GitHub</a></li>
+                <li id='email'><a href="email">Email</a></li>
             </ul>
         </footer>
     </div>

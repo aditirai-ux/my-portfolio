@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navigation = () => {
   return (
-    <div>
+    <div className='nav'>
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
