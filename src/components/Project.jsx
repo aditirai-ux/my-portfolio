@@ -1,29 +1,12 @@
 import React from 'react'
 import '../styles/Project.css'
-import { FontAwesomeIcon } 
-    from '@fortawesome/react-fontawesome'; 
-import { faCode } from '@fortawesome/free-solid-svg-icons';
-import Breadcrumbs from './Breadcrumbs.jsx';
 import '../App.css'; 
 
 const Project = () => { 
-    const breadcrumbsPath = 
-        [ 
-            { title: 'Home', to: '/' }, 
-            { title: 'Projects', to: '/projects' } 
-        ]; 
-
     return ( 
-        <section id="projects"
-            className="container text-center"> 
-            <Breadcrumbs paths={breadcrumbsPath} /> 
-            <h2 className="section-title"> 
-                <FontAwesomeIcon icon={faCode} 
-                    className="mr-2" /> 
-                Projects 
-            </h2> 
-            <div className="row"> 
-                {/* Project 1 */} 
+    <section id="projects" className="container text-center">
+        <h2 className="section-title">Projects</h2> 
+            <div className="project-1">
                 <div className="col-md-6"> 
                     <div className="card mb-4"> 
                         <div className="card-body"> 
