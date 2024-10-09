@@ -4,13 +4,11 @@ import '../App.css';
 import { Navbar, Nav } from 'react-bootstrap'; 
 import { FontAwesomeIcon } 
 from '@fortawesome/react-fontawesome'; 
-import { faGithub, faLinkedin } 
-from '@fortawesome/free-brands-svg-icons'; 
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'; 
 import { 
 faInfoCircle, faCode, 
 faFileAlt, faEnvelope 
-} 
-from '@fortawesome/free-solid-svg-icons'; 
+} from '@fortawesome/free-solid-svg-icons'; 
 import { Link } from 'react-router-dom';
 
 const Header = () => {
@@ -20,7 +18,7 @@ const Header = () => {
     <Navbar.Brand as={Link} to="/"
         className="brand-name"> 
         <span className="display-4 text-white ho"> 
-        Geek 
+        Aditi Rai
         </span> 
     </Navbar.Brand> 
     <button 
@@ -59,12 +57,12 @@ const Header = () => {
         </Nav.Link> 
         </Nav> 
         <Nav className="ml-auto"> 
-        <Nav.Link href="https://github.com/yourusername"> 
+        <Nav.Link href="https://github.com/aditirai-ux"> 
             <span className="sr-only">Github</span> 
             <FontAwesomeIcon icon={faGithub} size="lg"
             className='text-light ho' /> 
         </Nav.Link> 
-        <Nav.Link href="https://linkedin.com/in/yourusername"> 
+        <Nav.Link href="https://www.linkedin.com/in/aditi-rai-79b14022/"> 
             <span className="sr-only">Linkedin</span> 
             <FontAwesomeIcon icon={faLinkedin} size="lg"
             className='text-light ho' /> 
@@ -75,4 +73,4 @@ const Header = () => {
 ); 
 };
 
-export default Header
+export default Header;
