@@ -2,12 +2,12 @@ import React from 'react'
 import '../styles/Project.css'
 import { FontAwesomeIcon } 
     from '@fortawesome/react-fontawesome'; 
-import { faCode } from '@fortawesome/free-solid-svg-icons'; 
-// import Breadcrumbs from './Breadcrumbs'; 
+import { faCode } from '@fortawesome/free-solid-svg-icons';
+import { Breadcrumbs } from '@mui/material';
 import '../App.css'; 
 
 const Project = () => { 
-    const breadcrumbsPaths = 
+    const path = 
         [ 
             { title: 'Home', to: '/' }, 
             { title: 'Projects', to: '/projects' } 
@@ -16,7 +16,7 @@ const Project = () => {
     return ( 
         <section id="projects"
             className="container text-center"> 
-            <Breadcrumbs paths={breadcrumbsPaths} /> 
+            <Breadcrumbs paths={path} /> 
             <h2 className="section-title"> 
                 <FontAwesomeIcon icon={faCode} 
                     className="mr-2" /> 
