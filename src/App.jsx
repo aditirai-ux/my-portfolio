@@ -9,12 +9,15 @@ import Footer from './components/Footer'
 function App() {
 
   return (
-    <>
-      <Header />
-      <Navigation />
-      <Project />
-      <Footer />
-    </>
+    <Router>
+      <div>
+        <Header />
+        <Navigation />
+        <Project />
+        <Footer />
+      </div>
+    </Router>
+
   )
 }
 
