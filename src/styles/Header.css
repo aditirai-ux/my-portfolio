@@ -1,22 +1,85 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+/* design specifications referred from Geeks for Geeks */
+
+.custom-navbar {
+    background-color: #343a40;
+    padding: 1rem 0;
 }
-.header {
-    display: block;
-    justify-content: space-between;
+
+.FontAwesomeIcon {
+    color: white;
+}
+
+span {
+    color: white;
+}
+
+.brand-name {
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.brand-name:hover {
+    color: #17a2b8;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+    margin-right: 15px;
+    display: flex;
     align-items: center;
-    padding: 20px 50px;
-    background-color: aliceblue;
-    border-bottom: 1px solid #e9ecef;
+    transition: color 0.3s;
 }
-.header h1 {
-    font-size: 48px;
-    font-weight: 700;
+
+.nav-link span {
+    margin-right: 0.5rem;
 }
-.header h2 {
-    font-size: 24px;
-    font-weight: 400;
+
+.nav-link:hover,
+.ho:hover,
+.nav-link:hover span {
+    color: #17a2b8 !important;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+/* Font Awesome Icons */
+.fa-lg {
+    margin-right: 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar-nav {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .navbar-toggler {
+        margin-bottom: 10px;
+    }
+
+    .ml-auto {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 10px;
+    }
 }
