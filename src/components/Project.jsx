@@ -1,41 +1,80 @@
 import React from 'react'
-// const styles = {
-//     backgroundColor: '#004f8c',
-//     color: 'white',
-//     padding: '20px',
-//     textAlign: 'center',
-//     fontFamily: 'Arial'
-// }
+import '../styles/Project.css'
+import { FontAwesomeIcon } 
+    from '@fortawesome/react-fontawesome'; 
+import { faCode } from '@fortawesome/free-solid-svg-icons';
+import { Breadcrumbs } from '@mui/material';
+import '../App.css'; 
 
-const Project = () => {
-  return (
-    <div>
-        <div className="projects">
-            <h3>Projects</h3>
-                <h4>Project 1</h4>
-                <p>Project Description</p>
-                <a href="link">Link to Project</a>
-                <br />
-                <h4>Project 2</h4>
-                <p>Project Description</p>
-                <a href="link">Link to Project</a>
-                <br />
-                <h4>Project 3</h4>
-                <p>Project Description</p>
-                <a href="link">Link to Project</a>
-        </div>
-        
-        <form className="form">
-            <label name="contact">Contact:</label>
-            <input type="text" id="name" name="name" required></input>
-            <label name="email">Email Address:</label>
-            <input type="email" id="email" name="email" required></input>
-            <label name="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Submit</button>
-        </form>
-    </div>
-  )
-}
+const Project = () => { 
+    const path = 
+        [ 
+            { title: 'Home', to: '/' }, 
+            { title: 'Projects', to: '/projects' } 
+        ]; 
+
+    return ( 
+        <section id="projects"
+            className="container text-center"> 
+            <Breadcrumbs paths={path} /> 
+            <h2 className="section-title"> 
+                <FontAwesomeIcon icon={faCode} 
+                    className="mr-2" /> 
+                Projects 
+            </h2> 
+            <div className="row"> 
+                {/* Project 1 */} 
+                <div className="col-md-6"> 
+                    <div className="card mb-4"> 
+                        <div className="card-body"> 
+                            <h5 className="card-title"> 
+                                Quiz App Website 
+                            </h5> 
+                            <p className="card-text"> 
+                                Designed the UI and implemented 
+                                CSS styling for the website. 
+                                Used JavaScipt to design interactive  
+                                elements across all pages. 
+                            </p> 
+                        </div> 
+                    </div> 
+                </div> 
+                {/* Project 2 */} 
+                <div className="col-md-6"> 
+                    <div className="card mb-4"> 
+                        <div className="card-body"> 
+                            <h5 className="card-title"> 
+                                Professional README 
+                                Generator 
+                            </h5> 
+                            <p className="card-text"> 
+                                Used JavaScript to develop an 
+                                automated README generator for Github projects. 
+                                Uses the inquirer package to get user input and create
+                                customized content. 
+                            </p> 
+                        </div> 
+                    </div> 
+                </div> 
+                {/* Project 3 */} 
+                <div className="col-md-6"> 
+                    <div className="card mb-4"> 
+                        <div className="card-body"> 
+                            <h5 className="card-title"> 
+                                E-commerce Platform 
+                            </h5> 
+                            <p className="card-text"> 
+                                Built a fully functional e-commerce 
+                                platform with features like product listing, 
+                                cart management, and user authentication using 
+                                React, Node.js, and MongoDB. 
+                            </p> 
+                        </div> 
+                    </div> 
+                </div>  
+            </div> 
+        </section> 
+    ); 
+}; 
 
 export default Project
