@@ -7,11 +7,12 @@ const Header = () => {
   return (
     <div>
         <h1 className='header'>
-            <span className="display-4 text-white ho">Aditi Rai</span>
-            <p className="display-4 text-white ho"> 
-            Software Developer
-            </p>
+            Aditi Rai
             <Navbar />
+            {/* <p> 
+            Software Developer
+            </p> */}
+            
         </h1>
         
     </div> 
