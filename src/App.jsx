@@ -13,7 +13,6 @@ function App() {
   return (
     <div>
       <Header />
-      <Navigation />
       <About />
       <Project />
       <Resume />
