@@ -1,16 +1,22 @@
 /* design specifications referred from Geeks for Geeks */
+.header {
+    background-color: grey;
+    color: #fff;
+    padding: 0;
+    margin: 0 0 0 0;
+}
 
 .custom-navbar {
     background-color: #343a40;
-    padding: 1rem 0;
-}
-
-.FontAwesomeIcon {
-    color: white;
+    font-size: 18px;
 }
 
 span {
     color: white;
+}
+p {
+    color: white;
+    font-size: 36px;
 }
 
 .brand-name {
@@ -61,10 +67,6 @@ span {
     margin-left: auto;
 }
 
-/* Font Awesome Icons */
-.fa-lg {
-    margin-right: 5px;
-}
 
 /* Responsive Styles */
 @media (max-width: 768px) {
