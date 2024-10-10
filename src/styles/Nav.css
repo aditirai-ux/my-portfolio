@@ -1,0 +1,26 @@
+nav {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: flex-end; /* Align items to the right */
+    background-color: grey; /* Set a background color */
+    padding: 5px; /* Add some padding */
+    margin: 0px;
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list styling */
+    margin: 0px; /* Remove default margin */
+    padding: 0px; /* Remove default padding */
+    display: flex; /* Use flexbox for the list items */
+}
+
+nav ul li {
+    margin-left: 20px; /* Space between the items */
+    padding: 0px;
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Set text color */
+    font-size: 18px; /* Set font size */
+    padding: 0px;
+}

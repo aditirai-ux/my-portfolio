@@ -8,8 +8,8 @@ body {
 
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
 }
 
 /* About Section Styles */
@@ -275,6 +275,42 @@ body {
   margin-bottom: 0;
 }
 
+/* Form */
+.form {
+  display: inline-block;
+  margin-top: 20px;
+}
+.form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  color: #333;
+}
+.form input {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+.form textarea {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+.form button {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  background-color: #17a2b8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Social */
 .social-icons {
   display: flex;
   justify-content: flex-end;
@@ -308,33 +344,3 @@ body {
 }
 
 
-.breadcrumb {
-  background-color: #f8f9fa;
-  /* Breadcrumb background color */
-  padding: 10px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-
-}
-
-.breadcrumb-item a {
-  color: #007bff;
-  /* Breadcrumb link color */
-  text-decoration: none;
-
-}
-
-.breadcrumb-item a:hover {
-  text-decoration: underline;
-}
-
-.breadcrumb-item.active {
-  color: #343a40;
-  /* Active breadcrumb item color */
-  font-weight: bold;
-}
-
-.breadcrumb-item span::before {
-  display: none;
-  /* Remove separator for the last breadcrumb */
-}
