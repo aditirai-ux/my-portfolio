@@ -1,13 +1,11 @@
 import React from 'react';
-// import { Outlet } from 'react-router-dom';
 import '../styles/Header.css';
 import '../App.css';
-// import Nav from './Navigation';
 
 const Header = () => {
   return (
     <div>
-        <h1 className='header'>
+        <h1 className='header' style={'font-'}>
             Aditi Rai
         </h1>
         

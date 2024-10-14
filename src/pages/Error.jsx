@@ -1,7 +1,7 @@
 const ErrorPage = () => {
   return (
     <section>
-      <h1>404: Page Not Found</h1>
+      <h1 style={{color: 'black'}}>404: Page Not Found</h1>
     </section>
   );
 };

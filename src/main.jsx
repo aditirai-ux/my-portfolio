@@ -2,6 +2,7 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App.jsx'
 import './index.css'
+import './App.css'
 import About from './pages/About.jsx';
 import Home from './pages/Home.jsx';
 import Project from './pages/Project.jsx';

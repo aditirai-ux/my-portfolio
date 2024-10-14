@@ -1,11 +1,15 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import '../styles/Nav.css'
+import '../App.css';
+import Header from './Header.jsx';
+import Footer from './Footer.jsx';
 
 const Nav = () => {
   const currentPage = useLocation().pathname;
   return (
-    <nav>
+    <>
+      <nav>
       <ul className='nav nav-tabs'>
         <li className='nav-item'>
           <h2>
@@ -61,6 +65,8 @@ const Nav = () => {
         </li>
       </ul>
     </nav>
+    </>
+
 
   )
 }

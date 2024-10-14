@@ -7,6 +7,12 @@
     text-align: left;
 }
 
+h1 {
+    font-size: 36px;
+    padding: 0px;
+    margin: 0px;
+}
+
 .custom-navbar {
     background-color: #343a40;
     font-size: 18px;
