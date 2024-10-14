@@ -16,7 +16,7 @@ const Resume = () => {
                         APIs, Node.js, Express, MySQL, REST, Python
                     </p>
             </div>
-            <div className="download-btn">
+            <div className="download-btn" style={{display: 'inline-block'}}>
                 <a href="https://docs.google.com/document/d/1x9dCDxzjG6BTEpKvy-0zRyx2fOq5ZPn5/edit?usp=sharing&ouid=113790504171418675725&rtpof=true&sd=true" target="_blank" rel="noreferrer" className="btn btn-primary">Download Resume</a>
             </div>
     </div>

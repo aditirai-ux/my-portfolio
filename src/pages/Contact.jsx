@@ -4,15 +4,7 @@ import '../App.css'
 const Contact = () => {
   return (
     <div className="container text-center">
-        <h2 className="section-title" style={{
-        position: 'absolute',
-        top: '100px',
-        left: '0',
-        width: '100%',
-        textAlign: 'center',
-        padding: '10px',
-        zIndex: '1000'
-      }}>Contact</h2>
+        <h2 className="section-title">Contact</h2>
             <form className="form">
                 <label name="name">Name</label>
                 <input type="text" id="name" placeholder="Name" />

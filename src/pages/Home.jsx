@@ -4,7 +4,7 @@ import '../App.css';
 const Home = () => {
   return (
     
-    <h1 className='container text-center' style={{color:'#17a2b8', fontWeight: 'bold'}}>Welcome to my Portfolio!</h1>
+    <h1 className='container text-center' style={{color:'green', fontWeight: 'bold'}}>Welcome to my Portfolio!</h1>
   )
 }
 
