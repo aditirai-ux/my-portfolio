@@ -1,17 +1,20 @@
 /* design specifications referred from Geeks for Geeks */
 
+
 body {
   font-family: 'Arial', sans-serif;
   background-color: #f8f9fa;
   color: #ffffff;
+  margin: 0;
 }
 
 
 .container {
   width: 100%;
+  overflow: hidden;
   margin: 0;
   padding: 0;
-  background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');
+  background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0'); 
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -19,6 +22,10 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.container p {
+  color: #ffffff;
 }
 
 /* About Section Styles */
@@ -47,18 +54,6 @@ body {
   transform: scale(1.05);
 }
 
-.resume-download-btn {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  background-color: #007bff;
-  color: #fff;
-  border-radius: 5px;
-  transition: background-color 0.3s;
-}
 
 .resume-download-btn:hover {
   background-color: #0056b3;
