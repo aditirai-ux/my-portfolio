@@ -17,7 +17,7 @@ const Resume = () => {
                     </p>
             </div>
             <div className="download-btn">
-                <a href="https://drive.google.com/file/d/1Y7U2QVX2bJj6Yd1Qy6Dv5n5WV4mz7X5V/view?usp=sharing" target="_blank" rel="noreferrer" className="btn btn-primary">Download Resume</a>
+                <a href="https://docs.google.com/document/d/1x9dCDxzjG6BTEpKvy-0zRyx2fOq5ZPn5/edit?usp=sharing&ouid=113790504171418675725&rtpof=true&sd=true" target="_blank" rel="noreferrer" className="btn btn-primary">Download Resume</a>
             </div>
     </div>
   )

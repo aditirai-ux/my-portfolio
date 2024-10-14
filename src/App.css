@@ -10,6 +10,15 @@ body {
 .container {
   width: 100%;
   margin: 0;
+  padding: 0;
+  background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 /* About Section Styles */
