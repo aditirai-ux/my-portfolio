@@ -7,12 +7,13 @@ import Home from './pages/Home.jsx';
 import Project from './pages/Project.jsx';
 import Contact from './pages/Contact.jsx';
 import Resume from './pages/Resume.jsx';
+import ErrorPage from './pages/Error.jsx';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
-    // errorElement: <ErrorPage />,
+    errorElement: <ErrorPage />,
     children: [
       {
         index: true,

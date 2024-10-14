@@ -6,10 +6,6 @@ const Nav = () => {
   const currentPage = useLocation().pathname;
   return (
     <nav>
-      <h1>
-        <Link to='/' id='logo'>
-            Aditi Rai
-        </Link>
       <ul className='nav nav-tabs'>
         <li className='nav-item'>
           <h2>
@@ -27,7 +23,7 @@ const Nav = () => {
             </Link> 
           </h2>
         </li>
-        <li>
+        <li className='nav-item'>
           <h2>
             <Link
               to='/Projects'
@@ -39,7 +35,7 @@ const Nav = () => {
             </Link>
           </h2>
         </li>
-        <li>
+        <li className='nav-item'>
         <h2>
             <Link
               to='/Contact'
@@ -51,7 +47,7 @@ const Nav = () => {
             </Link>
           </h2>
         </li>
-        <li>
+        <li className='nav-item'>
         <h2>
             <Link
               to='/Resume'
@@ -64,7 +60,6 @@ const Nav = () => {
           </h2>
         </li>
       </ul>
-      </h1>
     </nav>
 
   )
