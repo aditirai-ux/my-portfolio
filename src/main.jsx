@@ -2,11 +2,11 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App.jsx'
 import './index.css'
-import About from './components/About.jsx';
-import Home from './components/Home.jsx';
-import Project from './components/Project.jsx';
-import Contact from './components/Contact.jsx';
-import Resume from './components/Resume.jsx';
+import About from './pages/About.jsx';
+import Home from './pages/Home.jsx';
+import Project from './pages/Project.jsx';
+import Contact from './pages/Contact.jsx';
+import Resume from './pages/Resume.jsx';
 
 const router = createBrowserRouter([
   {
