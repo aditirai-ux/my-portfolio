@@ -1,18 +1,14 @@
 import React from 'react';
+// import { Outlet } from 'react-router-dom';
 import '../styles/Header.css';
 import '../App.css';
-import Navbar from './Navigation';
+// import Nav from './Navigation';
 
 const Header = () => {
   return (
     <div>
         <h1 className='header'>
             Aditi Rai
-            <Navbar />
-            {/* <p> 
-            Software Developer
-            </p> */}
-            
         </h1>
         
     </div> 
