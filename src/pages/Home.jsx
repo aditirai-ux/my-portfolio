@@ -7,7 +7,7 @@ const Home = () => {
       <h2 className='section-title'>Hi, I am Aditi!
         <p>Welcome to my Portfolio!</p>
       </h2>
-      <img src='https://via.placeholder.com/150' alt='Aditi' />
+      <img className= 'img' src='https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Matrix' />
     </div> 
     
   )

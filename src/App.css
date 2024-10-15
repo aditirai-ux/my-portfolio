@@ -28,6 +28,21 @@ body {
   color: black;
 }
 
+.img {
+  width: 40%;
+  height: 40%;
+}
+.img:hover {
+  box-shadow: 0 0 2px 1px black;
+}
+
+.error-text {
+  color: red;
+  font-size: 18px;
+  display: block;
+}
+
+
 /* About Section Styles */
 #about {
   padding: 20px 0;
@@ -324,11 +339,6 @@ body {
   color: #17a2b8;
 }
 
-.error-text {
-  color: red;
-  font-size: 18px;
-  display: block;
-}
 
 
 /* Responsive Styles */
