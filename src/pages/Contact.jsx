@@ -23,6 +23,7 @@ const Contact = () => {
     } else {
       setMessage(inputValue);
   }
+};
 
   // Create a function that will handle the submission of the form
   const handleFormSubmit = (e) => {
@@ -68,6 +69,5 @@ const Contact = () => {
     </div>
   )
 }
-}
 
-export default Contact
+export default Contact;
