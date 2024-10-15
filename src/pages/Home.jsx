@@ -7,15 +7,7 @@ const Home = () => {
       <h2 className='section-title'>Hi, I am Aditi!
         <p>Welcome to my Portfolio!</p>
       </h2>
-        
-      
-    {/* <div className='container text-center'>
-      <h1 style={{color: 'black', display: 'block'}}>Hi, I am Aditi!</h1>
-    </div>
-    <div className='container text-center'>
-      <h2 style={{color:'green', fontWeight: 'bold'}}>
-        Welcome to my Portfolio!
-      </h2> */}
+      <img src='https://via.placeholder.com/150' alt='Aditi' />
     </div> 
     
   )
