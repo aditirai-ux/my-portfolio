@@ -1,20 +1,16 @@
-// import { useState } from 'react';
 import { Outlet } from 'react-router-dom';
 import Nav from './components/Navigation.jsx';
-import './App.css'
-// import Header from './components/Header.jsx';
+import './App.css';
 import Footer from './components/Footer.jsx';
 
 function App() {
 
   return (
-    <div>
-      {/* <Header /> */}
+    <>
       <Nav />  
       <Outlet />
       <Footer />
-    </div>
-
+    </>
   )
 }
 

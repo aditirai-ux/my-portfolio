@@ -3,7 +3,7 @@ import '../App.css'
 
 const Contact = () => {
   return (
-    <div className="container text-center">
+    <div id='contact' className="container text-center">
         <h2 className="section-title">Contact</h2>
             <form className="form">
                 <label name="name">Name</label>
@@ -14,7 +14,7 @@ const Contact = () => {
                 
                 
                 <label name="message">Message</label>
-                <textarea id="message" rows="3"></textarea>
+                <textarea id="message" placeholder="Message"></textarea>  
                 
                 <button type="submit" className="btn btn-primary">Submit</button>
                 <br />

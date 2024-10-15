@@ -5,7 +5,7 @@ import '../App.css';
 const Header = () => {
   return (
     <div>
-        <h1 className='header' style={'font-'}>
+        <h1 className='header'>
             Aditi Rai
         </h1>
         

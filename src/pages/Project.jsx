@@ -31,7 +31,7 @@ const Project = () => {
         {/* Project 3 */} 
             <div className="card-body"> 
                 <h5 className="card-title">Weather Dashboard</h5> 
-                    <p className="card-text"> 
+                    <p className="card-text">  
                         Built a weather dashboard that allows users to search 
                         for the weather by city. Displays the current weather
                         as well as a five-day forecast, including temperature,
